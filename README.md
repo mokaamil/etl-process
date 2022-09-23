@@ -14,7 +14,9 @@ Pentaho Data integration (PDI) is part of the Pentaho suite that consists of set
 1) Requirements Gathering
     - Fundamental understanding regarding business process and project expected outcome are being explored by getting as much input from the related stakeholders that includes but not limited to: -  
     >	Discover how frontend interface being develop – To record what data scope that are available in the OLTP system and which one involve.
+
     >	Understand the integration part from OLTP platform to OLAP component in terms of how the data is being flow, what type of data is being passed (flat file,  csv, json, etc.).
+
     >	Clarify the OLTP system’s essential aspect with Business Analyst and SME to further outline perspective such as data availability, data correlation, and needs in reporting. This will answer the purpose of data.
     
 2)	Data Dimensional Modelling
@@ -23,30 +25,30 @@ Pentaho Data integration (PDI) is part of the Pentaho suite that consists of set
     - Finalize data rule for data elimination.
 
 3)	Database Management
-  -	Build database structure that includes table correlation.
-  -	Documents table list that covers attributes, key relations, constraints, and description.
+: Build database structure that includes table correlation.
+: Documents table list that covers attributes, key relations, constraints, and description.
 
 4)	Develop ETL transformation jobs
-  -	Design ETL process in data pipeline (Further example in Demonstration part) 
-  -	Analyze data by data profiling to understand data structure, quality, content, and relationship of source data.
-  -	Involves processing data file from integration such as retrieving data, combining multiple data sources if necessary, filtering, formatting, and loading to target database.
+   - Design ETL process in data pipeline (Further example in Demonstration part) 
+   - Analyze data by data profiling to understand data structure, quality, content, and relationship of source data.
+   - Involves processing data file from integration such as retrieving data, combining multiple data sources if necessary, filtering, formatting, and loading to target database.
 
 5)	Unit testing
-  -	Unit test (Data Validation or Data Quality Test) is performed to verify each component in PDI working as expected, to achieve data reliability and accuracy through output verification. May vary in every organization.
-  -	Operates in staging area using mock or real data.
-  -	Ensure aspects of: -
-    o	Data Completeness – Total number input vs output.
-    o	Data Uniqueness – Is there any duplicate or redundant data.
-    o	Data Validity – Consistent formatting (schema, data type conversion, whitespaces).
-    o	Data Consistency – Details input vs output matching.
-    o	Data Integrity – Check variable relationship after merging data source.
-    o	Data Compliance & Exclusion – Essential business logic validation (if any) such as additional formulas for calculation, rule filtering (i.e: Quantity and Date range, Null or Invalid, Custom, etc.). 
-    o	Process errors – Checks overall end-to-end data integration process for any component error that may result in job failure.
+: Unit test (Data Validation or Data Quality Test) is performed to verify each component in PDI working as expected, to achieve data reliability and accuracy through output verification. May vary in every organization.
+: Operates in staging area using mock or real data.
+: Ensure aspects of: -
+   - Data Completeness – Total number input vs output.
+   - Data Uniqueness – Is there any duplicate or redundant data.
+   - Data Validity – Consistent formatting (schema, data type conversion, whitespaces).
+   - Data Consistency – Details input vs output matching.
+   - Data Integrity – Check variable relationship after merging data source.
+   - Data Compliance & Exclusion – Essential business logic validation (if any) such as additional formulas for calculation, rule filtering (i.e: Quantity and Date range, Null or Invalid, Custom, etc.). 
+   - Process errors – Checks overall end-to-end data integration process for any component error that may result in job failure.
 
 6)	Rollout to production environment.
-  -	Release deployment.
-  -	Communicate with stakeholders to verify expected outcome.
-  -	Lead to product’s operation & maintenance phase during warranty period.
+   - Release deployment.
+   - Communicate with stakeholders to verify expected outcome.
+   - Lead to product’s operation & maintenance phase during warranty period.
 
 
 
