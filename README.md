@@ -12,15 +12,15 @@ Pentaho Data integration (PDI) is part of the Pentaho suite that consists of set
 
 ## Example of ETL process in a project
 1) Requirements Gathering
-  -	Fundamental understanding regarding business process and project expected outcome are being explored by getting as much input from the related stakeholders that includes but not limited to: -  
-    o	Discover how frontend interface being develop – To record what data scope that are available in the OLTP system and which one involve.
-    o	Understand the integration part from OLTP platform to OLAP component in terms of how the data is being flow, what type of data is being passed (flat file,  csv, json, etc.).
-    o	Clarify the OLTP system’s essential aspect with Business Analyst and SME to further outline perspective such as data availability, data correlation, and needs in reporting. This will answer the purpose of data.
+    - Fundamental understanding regarding business process and project expected outcome are being explored by getting as much input from the related stakeholders that includes but not limited to: -  
+    >	Discover how frontend interface being develop – To record what data scope that are available in the OLTP system and which one involve.
+    >	Understand the integration part from OLTP platform to OLAP component in terms of how the data is being flow, what type of data is being passed (flat file,  csv, json, etc.).
+    >	Clarify the OLTP system’s essential aspect with Business Analyst and SME to further outline perspective such as data availability, data correlation, and needs in reporting. This will answer the purpose of data.
     
 2)	Data Dimensional Modelling
-  -	Define table structure, variable included, and rules for relationship between table.
-  -	Choose schema that fits OLAP requirements such as star or snowflake schema.
-  -	Finalize data rule for data elimination.
+    - Define table structure, variable included, and rules for relationship between table.
+    - Choose schema that fits OLAP requirements such as star or snowflake schema.
+    - Finalize data rule for data elimination.
 
 3)	Database Management
   -	Build database structure that includes table correlation.
