@@ -50,6 +50,16 @@ Pentaho Data integration (PDI) is part of the Pentaho suite that consists of set
 
 ## Demonstration of PDI tools in Healthcare OLAP system
 1. Example of overall process:
+<br/>![Process Overview Image](https://github.com/mokaamil/etl-process/blob/main/process%20overview.png)<br/><br/>
+2. Job
+    - Runs high level components consist of main processes
+<br/>&nbsp;&nbsp;&nbsp;![ETL Job Image](https://github.com/mokaamil/etl-process/blob/main/etl%20job.png)<br/><br/>  
+    - The above shows overall process from start, then proceed to ‘visit’ transformation, and end with the main fact. This is simplified view since real data processing scenario require staging area to gather data from source, that are further shown in transformation example.
+
+
+
+
+
 
 
 
